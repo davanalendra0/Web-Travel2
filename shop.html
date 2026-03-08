@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue — Northern Chalk Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/shop.css">
+</head>
+<body>
+
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-main">Northern Chalk</span>
+                <span class="logo-sub">Exotic Travel Since 1948</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Catalogue</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="shop.html" class="nav-cta">View Catalogue</a></li>
+            </ul>
+            <div class="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="page-hero">
+            <div class="container">
+                <div class="page-breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span class="sep">›</span>
+                    <span>Catalogue</span>
+                </div>
+                <span class="label">Our Full Collection</span>
+                <h1>Travel <em class="serif-italic">Catalogue</em></h1>
+                <div class="ornament">
+                    <span class="ornament-icon" style="color:var(--orange-light)">✦</span>
+                </div>
+                <p>Handcrafted journeys for couples — each destination selected for its romance, character, and extraordinary value.</p>
+            </div>
+        </section>
+
+        <div class="filter-bar">
+            <div class="filter-bar-inner">
+                <span class="filter-label">Filter by:</span>
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="europe">Europe</button>
+                <button class="filter-btn" data-filter="asia">Asia</button>
+                <button class="filter-btn" data-filter="africa">Africa</button>
+                <button class="filter-btn" data-filter="americas">Americas</button>
+                <button class="filter-btn" data-filter="island">Island Retreats</button>
+            </div>
+        </div>
+
+        <section class="shop-section">
+            <div class="shop-grid">
+
+                <!-- Featured -->
+                <div class="stamp-card shop-card shop-card--featured reveal" data-category="europe" data-delay="0.05">
+                    <div class="price-badge">EDITOR'S PICK</div>
+                    <img class="stamp-card-img" src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=1000&q=75&auto=format&fit=crop" alt="Santorini">
+                    <div class="stamp-card-body">
+                        <span class="stamp-card-tag">Greece · Europe · 10 Days</span>
+                        <div class="stamp-card-title">Santorini — Blue Domes & Golden Evenings</div>
+                        <p class="stamp-card-desc">A private villa perched above the caldera, curated sunset dining, volcanic hot-spring excursions, and a sailing day around the island. The ultimate Greek honeymoon.</p>
+                        <div style="display:flex;align-items:center;justify-content:space-between;margin-top:1rem;flex-wrap:wrap;gap:0.5rem;">
+                            <div class="stamp-card-price">From $1,290 <span>/ couple</span></div>
+                            <a href="contact.html" class="btn btn-primary" style="font-size:0.72rem;padding:0.6rem 1.5rem;">Enquire Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stamp-card shop-card reveal" data-category="asia" data-delay="0.1">
+                    <img class="stamp-card-img" src="https://images.unsplash.com/photo-1554931670-4ebfabf6e7a9?w=800&q=75&auto=format&fit=crop" alt="Kyoto">
+                    <div class="stamp-card-body">
+                        <span class="stamp-card-tag">Japan · Asia · 8 Days</span>
+                        <div class="stamp-card-title">Kyoto in Bloom</div>
+                        <p class="stamp-card-desc">Ancient temples, cherry blossoms, private tea ceremony, and a traditional ryokan stay in the Higashiyama district.</p>
+                        <div class="stamp-card-price">From $1,640 <span>/ couple</span></div>
+                    </div>
+                </div>
+
+                <div class="stamp-card shop-card reveal" data-category="africa" data-delay="0.15">
+                    <img class="stamp-card-img" src="https://images.unsplash.com/photo-1516939884455-1445c8652f83?w=800&q=75&auto=format&fit=crop" alt="Morocco">
+                    <div class="stamp-card-body">
+                        <span class="stamp-card-tag">Morocco · Africa · 7 Days</span>
+                        <div class="stamp-card-title">Marrakech Mystique</div>
+                        <p class="stamp-card-desc">Rooftop riads, spice market tours, a private Sahara desert camp under the stars, and authentic hammam experiences.</p>
+                        <div class="stamp-card-price">From $980 <span>/ couple</span></div>
+                    </div>
+                </div>
+
+                <div class="stamp-card shop-card reveal" data-category="europe" data-delay="0.2">
+                    <img class="stamp-card-img" src="https://images.unsplash.com/photo-1612698093158-e07ac200d44e?w=800&q=75&auto=format&fit=crop" alt="Amalfi Coast">
+                    <div class="stamp-card-body">
+                        <span class="stamp-card-tag">Italy · Europe · 9 Days</span>
+                        <div class="stamp-card-title">Amalfi Coast Serenity</div>
+                        <p class="stamp-card-desc">Clifftop villages, lemon-grove walks, private boat hire, and candlelit dinners above the Tyrrhenian Sea.</p>
+                        <div class="stamp-card-price">From $1,480 <span>/ couple</span></div>
+                    </div>
+                </div>
+
+                <div class="stamp-card shop-card reveal" data-category="island" data-delay="0.25">
+                    <img class="stamp-card-img" src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=800&q=75&auto=format&fit=crop" alt="Maldives">
+                    <div class="stamp-card-body">
+                        <span class="stamp-card-tag">Maldives · Island · 7 Days</span>
+                        <div class="stamp-card-title">Maldives — Overwater Reverie</div>
+                        <p class="stamp-card-desc">An overwater bungalow with glass floors, reef snorkelling, and a private sunset dolphin cruise.</p>
+                        <div class="stamp-card-price">From $2,100 <span>/ couple</span></div>
+                    </div>
+                </div>
+
+                <div class="stamp-card shop-card reveal" data-category="asia" data-delay="0.3">
+                    <img class="stamp-card-img" src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=75&auto=format&fit=crop" alt="Bali">
+                    <div class="stamp-card-body">
+                        <span class="stamp-card-tag">Indonesia · Asia · 10 Days</span>
+                        <div class="stamp-card-title">Bali — Island of the Gods</div>
+                        <p class="stamp-card-desc">Private jungle villas, Ubud rice terraces, sacred temple sunrises, and a traditional kecak fire dance evening.</p>
+                        <div class="stamp-card-price">From $1,120 <span>/ couple</span></div>
+                    </div>
+                </div>
+
+                <div class="stamp-card shop-card reveal" data-category="europe" data-delay="0.35">
+                    <img class="stamp-card-img" src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&q=75&auto=format&fit=crop" alt="Prague">
+                    <div class="stamp-card-body">
+                        <span class="stamp-card-tag">Czech Republic · Europe · 6 Days</span>
+                        <div class="stamp-card-title">Prague — A Fairy Tale City</div>
+                        <p class="stamp-card-desc">Gothic spires, medieval old town cobblestones, historic cellar dining, and a classical music evening in a Baroque chapel.</p>
+                        <div class="stamp-card-price">From $870 <span>/ couple</span></div>
+                    </div>
+                </div>
+
+                <div class="stamp-card shop-card reveal" data-category="americas" data-delay="0.4">
+                    <img class="stamp-card-img" src="https://images.unsplash.com/photo-1526392060635-9d6019884377?w=800&q=75&auto=format&fit=crop" alt="Patagonia">
+                    <div class="stamp-card-body">
+                        <span class="stamp-card-tag">Argentina & Chile · Americas · 12 Days</span>
+                        <div class="stamp-card-title">Patagonia Wilderness</div>
+                        <p class="stamp-card-desc">Glaciers, mountain passes, gaucho estancias, and the raw beauty of the southern tip of the world — an adventure for couples who seek extraordinary.</p>
+                        <div class="stamp-card-price">From $2,480 <span>/ couple</span></div>
+                    </div>
+                </div>
+
+                <div class="stamp-card shop-card reveal" data-category="asia" data-delay="0.45">
+                    <img class="stamp-card-img" src="https://images.unsplash.com/photo-1562602833-0f4ab2fc46e3?w=800&q=75&auto=format&fit=crop" alt="Cappadocia">
+                    <div class="stamp-card-body">
+                        <span class="stamp-card-tag">Turkey · Asia · 7 Days</span>
+                        <div class="stamp-card-title">Cappadocia in the Clouds</div>
+                        <p class="stamp-card-desc">Sunrise hot air balloon rides over surreal valleys, cave hotel accommodation, and a private wine-tasting of the Cappadocian vineyards.</p>
+                        <div class="stamp-card-price">From $1,240 <span>/ couple</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="deal-banner">
+            <div class="deal-banner-inner">
+                <div class="deal-banner-text">
+                    <span class="label">Seasonal Offer</span>
+                    <h3>Spring Couples Retreat — 15% Off</h3>
+                    <p>Book any European or Asian package for departure between March and May and receive our spring discount. Limited availability.</p>
+                </div>
+                <div class="deal-countdown">
+                    <div class="countdown-unit">
+                        <span class="countdown-num" id="cd-days">--</span>
+                        <span class="countdown-lbl">Days</span>
+                    </div>
+                    <div class="countdown-unit">
+                        <span class="countdown-num" id="cd-hours">--</span>
+                        <span class="countdown-lbl">Hours</span>
+                    </div>
+                    <div class="countdown-unit">
+                        <span class="countdown-num" id="cd-mins">--</span>
+                        <span class="countdown-lbl">Mins</span>
+                    </div>
+                </div>
+                <a href="contact.html" class="btn btn-primary">Claim Offer</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <span class="logo-main">Northern Chalk</span>
+                <span class="logo-sub">Exotic Travel Since 1948</span>
+                <p>We offer a variety of exotic destinations at the lowest prices, thanks to our dedicated staff on location around the world.</p>
+            </div>
+            <div class="footer-col">
+                <h5>Navigate</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Catalogue</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Destinations</h5>
+                <ul>
+                    <li><a href="shop.html">Europe</a></li>
+                    <li><a href="shop.html">Asia</a></li>
+                    <li><a href="shop.html">Africa</a></li>
+                    <li><a href="shop.html">Americas</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-newsletter">
+                <h5>Stay Inspired</h5>
+                <p style="font-size:0.85rem;color:#A09080;margin-bottom:1rem;">Receive curated travel stories and exclusive offers for couples.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Northern Chalk Travel Co. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="contact.html">Support</a>
+                <a href="shop.html">Catalogue</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

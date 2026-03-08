@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us — Northern Chalk Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-main">Northern Chalk</span>
+                <span class="logo-sub">Exotic Travel Since 1948</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Catalogue</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="shop.html" class="nav-cta">View Catalogue</a></li>
+            </ul>
+            <div class="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="page-hero">
+            <div class="container">
+                <div class="page-breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span class="sep">›</span>
+                    <span>Contact</span>
+                </div>
+                <span class="label">We're Here for You</span>
+                <h1>Get in <em class="serif-italic">Touch</em></h1>
+                <div class="ornament">
+                    <span class="ornament-icon" style="color:var(--orange-light)">✦</span>
+                </div>
+                <p>Whether you're planning your honeymoon or your tenth anniversary trip, our team is ready to craft the perfect journey for you.</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-layout">
+
+                <!-- Info column -->
+                <div class="contact-info reveal">
+                    <h2>Let's Plan Your <em class="serif-italic">Escape</em></h2>
+                    <p>Our travel consultants are seasoned explorers themselves. Reach out and we'll begin crafting your ideal itinerary — no question is too small, and every detail matters.</p>
+
+                    <div class="info-item">
+                        <div class="info-icon">✉</div>
+                        <div class="info-content">
+                            <span class="info-label">Email</span>
+                            <p><a href="mailto:hello@northernchalk.com">hello@northernchalk.com</a><br>
+                            <a href="mailto:support@northernchalk.com">support@northernchalk.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">✆</div>
+                        <div class="info-content">
+                            <span class="info-label">Phone</span>
+                            <p><a href="tel:+441234567890">+44 1234 567 890</a><br>
+                            Mon – Sat, 9:00 AM – 6:00 PM GMT</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">⌖</div>
+                        <div class="info-content">
+                            <span class="info-label">Head Office</span>
+                            <p>12 Ivory Lane, Mayfair<br>London, W1K 4AB<br>United Kingdom</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">◷</div>
+                        <div class="info-content">
+                            <span class="info-label">Office Hours</span>
+                            <div class="hours-grid">
+                                <span class="hours-row">Mon – Fri <span>9am – 6pm</span></span>
+                                <span class="hours-row">Saturday <span>10am – 4pm</span></span>
+                                <span class="hours-row">Sunday <span>Closed</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form column -->
+                <div class="contact-form-wrap reveal" data-delay="0.15">
+                    <h3>Send Us a Message</h3>
+                    <p>Fill in the form below and a consultant will respond within one business day.</p>
+
+                    <form id="contact-form" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first-name">First Name *</label>
+                                <input type="text" id="first-name" name="first-name" placeholder="Your first name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="last-name">Last Name *</label>
+                                <input type="text" id="last-name" name="last-name" placeholder="Your last name" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone (optional)</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 234 567 890">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="enquiry-type">Enquiry Type *</label>
+                            <select id="enquiry-type" name="enquiry-type" required>
+                                <option value="" disabled selected>Select an option…</option>
+                                <option value="booking">New Booking Enquiry</option>
+                                <option value="existing">Existing Booking Support</option>
+                                <option value="custom">Custom Itinerary Request</option>
+                                <option value="refund">Refund or Cancellation</option>
+                                <option value="general">General Question</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="destination">Destination of Interest</label>
+                            <input type="text" id="destination" name="destination" placeholder="e.g. Santorini, Bali, Japan…">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your dream trip — travel dates, interests, budget…" required></textarea>
+                        </div>
+
+                        <div class="form-submit">
+                            <span class="form-note">* Required fields</span>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="map-section">
+            <div class="map-placeholder">
+                <span class="label">London, United Kingdom</span>
+                <p>12 Ivory Lane, Mayfair · W1K 4AB</p>
+                <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn-ghost" style="margin-top:0.5rem;font-size:0.72rem;padding:0.6rem 1.6rem;">
+                    View on Map
+                </a>
+            </div>
+        </div>
+
+        <section class="faq-section">
+            <div class="faq-inner">
+                <div class="section-header reveal" style="margin-bottom:2.5rem;">
+                    <span class="label">Common Questions</span>
+                    <h2>Frequently Asked</h2>
+                    <div class="ornament"><span class="ornament-icon">✦</span></div>
+                </div>
+
+                <div class="faq-item reveal">
+                    <div class="faq-question">
+                        How far in advance should I book my trip?
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We recommend booking at least 6–8 weeks in advance for standard packages, and 3–6 months ahead for popular periods such as spring in Japan, summer in the Mediterranean, or the Christmas holidays. Last-minute bookings may be possible — please contact us directly.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item reveal">
+                    <div class="faq-question">
+                        Can I customise an existing package?
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. All of our packages are fully customisable. You can extend stays, add excursions, upgrade accommodations, or completely build a bespoke itinerary from scratch. We pride ourselves on personalised service.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item reveal">
+                    <div class="faq-question">
+                        What is your cancellation policy?
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a full refund for cancellations made more than 60 days before departure. Between 30–60 days, a 25% fee applies. Within 30 days, a 50% fee applies. We strongly recommend travel insurance to cover unforeseen circumstances.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item reveal">
+                    <div class="faq-question">
+                        Do you offer travel insurance?
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We partner with several reputable travel insurance providers and can assist you in finding the most suitable coverage for your trip. Comprehensive travel insurance is strongly recommended for all our packages.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item reveal">
+                    <div class="faq-question">
+                        How does Northern Chalk offer such competitive prices?
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We have dedicated local staff and long-standing partnerships in every destination we serve. This means we negotiate directly with accommodation providers, tour operators, and transport services — cutting out middlemen entirely and passing the savings on to you.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <span class="logo-main">Northern Chalk</span>
+                <span class="logo-sub">Exotic Travel Since 1948</span>
+                <p>We offer a variety of exotic destinations at the lowest prices, thanks to our dedicated staff on location around the world.</p>
+            </div>
+            <div class="footer-col">
+                <h5>Navigate</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Catalogue</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Destinations</h5>
+                <ul>
+                    <li><a href="shop.html">Europe</a></li>
+                    <li><a href="shop.html">Asia</a></li>
+                    <li><a href="shop.html">Africa</a></li>
+                    <li><a href="shop.html">Americas</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-newsletter">
+                <h5>Stay Inspired</h5>
+                <p style="font-size:0.85rem;color:#A09080;margin-bottom:1rem;">Receive curated travel stories and exclusive offers for couples.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Northern Chalk Travel Co. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="contact.html">Support</a>
+                    <a href="shop.html">Catalogue</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
